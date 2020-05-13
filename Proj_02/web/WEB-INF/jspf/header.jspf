@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<header style="text-align: center">
+     <p class="texto">Sistema de Cadastro</p>
+</header>
+<style>
+
+</style>
