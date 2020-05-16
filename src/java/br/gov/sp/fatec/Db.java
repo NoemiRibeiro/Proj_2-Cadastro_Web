@@ -16,5 +16,10 @@ public class Db {
         return clientes;
     }
     
+    private static ArrayList<Fornecedor> fornecedores;
+    public static ArrayList<Fornecedor> getFornecedores(){
+        return fornecedores;
+    }
+    
     
 }
