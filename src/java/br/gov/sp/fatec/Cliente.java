@@ -17,7 +17,7 @@ public class Cliente {
     private String telefone;
     private String endereco;
 
-    public void setCliente(){
+    public void setCliente(String nome, String cpf, String rg, String email, String telefone, String endereco){
         this.setNome(nome);
         this.setCpf(cpf);
         this.setRg(rg);

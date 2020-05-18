@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 16/05/2020, 13:52:44
+    Document   : fornecedor
+    Created on : 18/05/2020, 12:24:05
     Author     : NOEMI
 --%>
 
@@ -9,13 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Projeto 02 - Cadastro WebApp</title>
+        <title>Fornecedor - Cadastro WebApp</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/header.jspf" %>
         <%@include file="WEB-INF/jspf/menu.jspf" %>
-        <h1>Projeto 02 - </h1>
-        <p>Aplicação WEB para controle de cadastros de clientes e fornecedores</p>
+        
+        <h1>Manutenção de Cadastro</h1>
         <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>
 </html>

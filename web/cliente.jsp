@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : 16/05/2020, 13:52:44
+    Document   : cliente
+    Created on : 18/05/2020, 12:23:46
     Author     : NOEMI
 --%>
 
@@ -9,13 +9,17 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Projeto 02 - Cadastro WebApp</title>
+       <title>Cliente - Cadastro WebApp</title>
     </head>
     <body>
         <%@include file="WEB-INF/jspf/header.jspf" %>
         <%@include file="WEB-INF/jspf/menu.jspf" %>
-        <h1>Projeto 02 - </h1>
-        <p>Aplicação WEB para controle de cadastros de clientes e fornecedores</p>
+        
+        <h1>Cliente - Manutenção de Cadastro</h1>
+        <h2><a href="clientes/list.jsp">Lista de Clientes</a></h2>
+        <h2><a href="clientes/add.jsp">Cadastrar Clientes</a></h2>
+        <h2><a>Alterar Clientes</a></h2>
+        <h2><a>Excluir Clientes</a></h2>
         <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>
 </html>

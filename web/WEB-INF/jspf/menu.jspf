@@ -1,0 +1,9 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div style="text-align: center">
+<h2><a href="<%= request.getContextPath() %>/cliente.jsp">Cliente</a> | 
+    <a href="<%= request.getContextPath() %>/fornecedor.jsp">Fornecedor</a>
+</h2>
+</div>
+
+

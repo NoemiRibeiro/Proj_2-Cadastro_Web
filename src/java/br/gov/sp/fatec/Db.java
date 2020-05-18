@@ -13,6 +13,13 @@ import java.util.ArrayList;
 public class Db {
     private static ArrayList<Cliente> clientes;
     public static ArrayList<Cliente> getClientes(){
+        if (clientes == null)
+        {
+            clientes = new ArrayList<>();
+            Cliente teste = new Cliente();
+            teste.setCliente("Teste", "111.111.111-11", "22.222.222-2", "teste@email.com", "(33)33333-3333", "Rua 4, 444");
+            clientes.add(teste);
+        }
         return clientes;
     }
     
